@@ -1,4 +1,4 @@
-# MinecraftForg Bindings for Clojure.
+# MinecraftForge Bindings for Clojure.
 
 These bindings are created to simplify interaction with java classes from clojure.
 For each java class was created a separate namespace.
