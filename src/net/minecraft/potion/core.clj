@@ -1,0 +1,15 @@
+(ns net.minecraft.potion.core
+  (:refer-clojure :only [require comment defn ->])
+  (:import ))
+
+(require '[net.minecraft.potion.Potion])
+(require '[net.minecraft.potion.PotionAbsorption])
+(require '[net.minecraft.potion.PotionAttackDamage])
+(require '[net.minecraft.potion.PotionEffect])
+(require '[net.minecraft.potion.PotionHealth])
+(require '[net.minecraft.potion.PotionHealthBoost])
+(require '[net.minecraft.potion.PotionHelper$ItemPredicateInstance])
+(require '[net.minecraft.potion.PotionHelper$MixPredicate])
+(require '[net.minecraft.potion.PotionHelper])
+(require '[net.minecraft.potion.PotionType])
+(require '[net.minecraft.potion.PotionUtils])

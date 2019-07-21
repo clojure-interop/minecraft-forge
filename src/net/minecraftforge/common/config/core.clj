@@ -1,0 +1,17 @@
+(ns net.minecraftforge.common.config.core
+  (:refer-clojure :only [require comment defn ->])
+  (:import ))
+
+(require '[net.minecraftforge.common.config.Config$Comment])
+(require '[net.minecraftforge.common.config.Config$LangKey])
+(require '[net.minecraftforge.common.config.Config$RangeDouble])
+(require '[net.minecraftforge.common.config.Config$RangeInt])
+(require '[net.minecraftforge.common.config.Config$Type])
+(require '[net.minecraftforge.common.config.Config])
+(require '[net.minecraftforge.common.config.ConfigCategory])
+(require '[net.minecraftforge.common.config.ConfigElement])
+(require '[net.minecraftforge.common.config.ConfigManager])
+(require '[net.minecraftforge.common.config.Configuration$UnicodeInputStreamReader])
+(require '[net.minecraftforge.common.config.Configuration])
+(require '[net.minecraftforge.common.config.Property$Type])
+(require '[net.minecraftforge.common.config.Property])

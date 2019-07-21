@@ -1,0 +1,18 @@
+(ns net.minecraftforge.fml.common.eventhandler.core
+  (:refer-clojure :only [require comment defn ->])
+  (:import ))
+
+(require '[net.minecraftforge.fml.common.eventhandler.ASMEventHandler])
+(require '[net.minecraftforge.fml.common.eventhandler.Cancelable])
+(require '[net.minecraftforge.fml.common.eventhandler.Event$HasResult])
+(require '[net.minecraftforge.fml.common.eventhandler.Event$Result])
+(require '[net.minecraftforge.fml.common.eventhandler.Event])
+(require '[net.minecraftforge.fml.common.eventhandler.EventBus])
+(require '[net.minecraftforge.fml.common.eventhandler.EventPriority])
+(require '[net.minecraftforge.fml.common.eventhandler.GenericEvent])
+(require '[net.minecraftforge.fml.common.eventhandler.IContextSetter])
+(require '[net.minecraftforge.fml.common.eventhandler.IEventExceptionHandler])
+(require '[net.minecraftforge.fml.common.eventhandler.IEventListener])
+(require '[net.minecraftforge.fml.common.eventhandler.IGenericEvent])
+(require '[net.minecraftforge.fml.common.eventhandler.ListenerList])
+(require '[net.minecraftforge.fml.common.eventhandler.SubscribeEvent])

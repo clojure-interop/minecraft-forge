@@ -1,0 +1,15 @@
+(ns net.minecraftforge.common.animation.core
+  (:refer-clojure :only [require comment defn ->])
+  (:import ))
+
+(require '[net.minecraftforge.common.animation.Event])
+(require '[net.minecraftforge.common.animation.IEventHandler])
+(require '[net.minecraftforge.common.animation.ITimeValue])
+(require '[net.minecraftforge.common.animation.TimeValues$CommonTimeValueTypeAdapterFactory])
+(require '[net.minecraftforge.common.animation.TimeValues$CompositionValue])
+(require '[net.minecraftforge.common.animation.TimeValues$ConstValue])
+(require '[net.minecraftforge.common.animation.TimeValues$IdentityValue])
+(require '[net.minecraftforge.common.animation.TimeValues$ParameterValue])
+(require '[net.minecraftforge.common.animation.TimeValues$SimpleExprValue])
+(require '[net.minecraftforge.common.animation.TimeValues$VariableValue])
+(require '[net.minecraftforge.common.animation.TimeValues])

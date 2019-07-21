@@ -1,0 +1,16 @@
+(ns net.minecraft.world.chunk.core
+  (:refer-clojure :only [require comment defn ->])
+  (:import ))
+
+(require '[net.minecraft.world.chunk.BlockStateContainer])
+(require '[net.minecraft.world.chunk.BlockStatePaletteHashMap])
+(require '[net.minecraft.world.chunk.BlockStatePaletteLinear])
+(require '[net.minecraft.world.chunk.BlockStatePaletteRegistry])
+(require '[net.minecraft.world.chunk.Chunk$EnumCreateEntityType])
+(require '[net.minecraft.world.chunk.Chunk])
+(require '[net.minecraft.world.chunk.ChunkPrimer])
+(require '[net.minecraft.world.chunk.EmptyChunk])
+(require '[net.minecraft.world.chunk.IBlockStatePalette])
+(require '[net.minecraft.world.chunk.IChunkGenerator])
+(require '[net.minecraft.world.chunk.IChunkProvider])
+(require '[net.minecraft.world.chunk.NibbleArray])

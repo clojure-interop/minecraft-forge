@@ -1,0 +1,18 @@
+(ns net.minecraft.world.storage.loot.conditions.core
+  (:refer-clojure :only [require comment defn ->])
+  (:import ))
+
+(require '[net.minecraft.world.storage.loot.conditions.EntityHasProperty$Serializer])
+(require '[net.minecraft.world.storage.loot.conditions.EntityHasProperty])
+(require '[net.minecraft.world.storage.loot.conditions.EntityHasScore$Serializer])
+(require '[net.minecraft.world.storage.loot.conditions.EntityHasScore])
+(require '[net.minecraft.world.storage.loot.conditions.KilledByPlayer$Serializer])
+(require '[net.minecraft.world.storage.loot.conditions.KilledByPlayer])
+(require '[net.minecraft.world.storage.loot.conditions.LootCondition$Serializer])
+(require '[net.minecraft.world.storage.loot.conditions.LootCondition])
+(require '[net.minecraft.world.storage.loot.conditions.LootConditionManager$Serializer])
+(require '[net.minecraft.world.storage.loot.conditions.LootConditionManager])
+(require '[net.minecraft.world.storage.loot.conditions.RandomChance$Serializer])
+(require '[net.minecraft.world.storage.loot.conditions.RandomChance])
+(require '[net.minecraft.world.storage.loot.conditions.RandomChanceWithLooting$Serializer])
+(require '[net.minecraft.world.storage.loot.conditions.RandomChanceWithLooting])

@@ -1,0 +1,16 @@
+(ns ibxm.core
+  (:refer-clojure :only [require comment defn ->])
+  (:import ))
+
+(require '[ibxm.Channel])
+(require '[ibxm.Envelope])
+(require '[ibxm.FastTracker2])
+(require '[ibxm.IBXM])
+(require '[ibxm.Instrument])
+(require '[ibxm.LogTable])
+(require '[ibxm.Module])
+(require '[ibxm.Pattern])
+(require '[ibxm.Player])
+(require '[ibxm.ProTracker])
+(require '[ibxm.Sample])
+(require '[ibxm.ScreamTracker3])

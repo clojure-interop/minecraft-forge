@@ -1,0 +1,18 @@
+(ns net.minecraftforge.fml.common.asm.transformers.core
+  (:refer-clojure :only [require comment defn ->])
+  (:import ))
+
+(require '[net.minecraftforge.fml.common.asm.transformers.AccessTransformer])
+(require '[net.minecraftforge.fml.common.asm.transformers.BlamingTransformer$VersionVisitor])
+(require '[net.minecraftforge.fml.common.asm.transformers.BlamingTransformer])
+(require '[net.minecraftforge.fml.common.asm.transformers.DeobfuscationTransformer])
+(require '[net.minecraftforge.fml.common.asm.transformers.EventSubscriberTransformer])
+(require '[net.minecraftforge.fml.common.asm.transformers.EventSubscriptionTransformer])
+(require '[net.minecraftforge.fml.common.asm.transformers.ItemStackTransformer])
+(require '[net.minecraftforge.fml.common.asm.transformers.MarkerTransformer])
+(require '[net.minecraftforge.fml.common.asm.transformers.ModAPITransformer])
+(require '[net.minecraftforge.fml.common.asm.transformers.ModAccessTransformer])
+(require '[net.minecraftforge.fml.common.asm.transformers.PatchingTransformer])
+(require '[net.minecraftforge.fml.common.asm.transformers.SideTransformer])
+(require '[net.minecraftforge.fml.common.asm.transformers.TerminalTransformer$ExitVisitor])
+(require '[net.minecraftforge.fml.common.asm.transformers.TerminalTransformer])

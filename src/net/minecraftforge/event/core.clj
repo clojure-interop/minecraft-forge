@@ -1,0 +1,18 @@
+(ns net.minecraftforge.event.core
+  (:refer-clojure :only [require comment defn ->])
+  (:import ))
+
+(require '[net.minecraftforge.event.AnvilUpdateEvent])
+(require '[net.minecraftforge.event.AttachCapabilitiesEvent$Entity])
+(require '[net.minecraftforge.event.AttachCapabilitiesEvent$Item])
+(require '[net.minecraftforge.event.AttachCapabilitiesEvent$TileEntity])
+(require '[net.minecraftforge.event.AttachCapabilitiesEvent$World])
+(require '[net.minecraftforge.event.AttachCapabilitiesEvent])
+(require '[net.minecraftforge.event.CommandEvent])
+(require '[net.minecraftforge.event.EntitySelectorEvent])
+(require '[net.minecraftforge.event.ForgeEventFactory])
+(require '[net.minecraftforge.event.LootTableLoadEvent])
+(require '[net.minecraftforge.event.RegistryEvent$NewRegistry])
+(require '[net.minecraftforge.event.RegistryEvent$Register])
+(require '[net.minecraftforge.event.RegistryEvent])
+(require '[net.minecraftforge.event.ServerChatEvent])
