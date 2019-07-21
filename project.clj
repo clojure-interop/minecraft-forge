@@ -1,5 +1,5 @@
-(defproject clojure-interop/minicraft-forge "1.0.0"
-  :description "Clojure to Java Interop Bindings for minicraft-forge"
+(defproject clojure-interop/minecraft-forge "1.0.0"
+  :description "Clojure to Java Interop Bindings for minecraft-forge"
   :url "https://github.com/clojure-interop/minicraft-forge"
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
